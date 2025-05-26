@@ -1,6 +1,5 @@
 
 source("src/qc_scripts/distinctness.R")
-#source("src/qc_scripts/exceeded_neighbours_original.R")
 source("src/qc_scripts/exceeded_neighbours.R")
 source("src/qc_scripts/flat_line.R")
 source("src/qc_scripts/msl_daily_doodson.R")
@@ -9,8 +8,6 @@ source("src/qc_scripts/msl_hourly.R")
 source("src/qc_scripts/out_of_range.R")
 source("src/qc_scripts/polyfitNoTests.R")
 source("src/qc_scripts/shift.R")
-source("src/qc_scripts/spike_detect_spline_median.R")
-source("src/qc_scripts/spike_detect_spline_rmse.R")
 source("src/qc_scripts/spikes_via_median.R")
 source("src/qc_scripts/spikes_via_rmse.R")
 
